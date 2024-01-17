@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import "reset.css";
+
+/* =============== 전체 디자인 스타일 =================== */
+/* ---------- colors --------------- */
+.bg-nav{
+	background-color: var(--bg-color2)
+}
+.bg-light {
+	background-color: var(--sub-color)
+}
+.bg-dark {
+	background-color: var(--main-color)
+}
+.text-light {
+	color: var(--sub-color)
+}
+.text-dark {
+	color: var(--main-color)
+}
+
+.h-400 {
+	height: 400px
+}
+
+/* ----------- display, flexbox ------------- */
+.d-none {
+	display: none
+}
+.d-flex {
+	display: flex
+}
+
+.justify-center {
+	justify-content: center
+}
+.justify-between {
+	justify-content: space-between
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.align-center {
+	align-items: center
+}
+.align-self-center {
+	align-self: center
+}
+.align-content-center {
+	align-content: center
+}
+
+.gap-1 {
+	gap: 1rem
+}
+.gap-2 {
+	gap: 2rem
+}
+.gap-3 {
+	gap: 3rem
+}
+.py-1{
+	padding: 1rem;
+}
+.py-2{
+	padding: 2rem;
+}
+.text-cap {
+	text-transform: capitalize
+}
+.text-upper {
+	text-transform: uppercase	
+}
+.text-lower {
+	text-transform: lowercase	
+}
+
+/* ------------ container ----------- */
+.container {
+	max-width: 800px;	
+}
+
+.mx-auto {
+	margin: 0 auto
+}
+
+/* ------------ header area --------- */
+.top-links a {
+	color: var(--text-color1)
+}
+
+/* ------------ position --------- */
+.pos-absolute {
+	position: absolute
+}
+.pos-relative {
+	position: relative
+}
+.bottom-35 {
+	bottom: -35px
+}
+
+
+/* ----------- slogan text --------- */
+.st-1 {
+	color: var(--main-color);
+	font-size: 3rem
+}
+.st-2 {
+	color: var(--point-color);
+	font-size: 3rem
+}
+.st-3 {
+	color: var(--main-color);
+	font-size: 4.5rem
+}
+
+.build-xy {
+	left: 0;
+	top: 50px
+}
+.body-xy {
+	left: 100px;
+	top: -92px
+} 
+
+
+/* ----------- nav --------- */
+nav a:hover{
+	color: var(--text-color3)
+}
+	
