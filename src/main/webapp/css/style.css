@@ -84,7 +84,7 @@
 	margin: 0 auto
 }
 
-/* ------------ header area --------- */
+/* ================= header area =================== */
 .top-links a {
 	color: var(--text-color1)
 }
@@ -125,8 +125,38 @@
 } 
 
 
-/* ----------- nav --------- */
+/* ================= nav ==================== */
 nav a:hover{
 	color: var(--text-color3)
 }
+#gnb>li{
+	position:relative;
+	cursor: pointer;
+}
+#gnb>li:hover .lnb{
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	left: 0;
+}
+.lnb{
+	background-color: rgba(0,0,0,.5);
+}
+.lnb li{
+	text-align: center;
+	padding: .5rem;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 	
