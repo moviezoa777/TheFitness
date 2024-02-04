@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.d-flex {
+    display: flex;
+}
+.j-contents-cen {
+    justify-content: center;
+}
+.j-contents-aro {
+    justify-content :space-around;
+}
+.j-contents-bet {
+    justify-content: space-between;
+}
+.a-items-cen {
+    align-items:center;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.mx-auto {
+    margin: 0 auto;
+}
+
+
+
+/* =========================== header ==================================*/
+header {
+    margin: 0 auto;
+    width: 900px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container {
+    max-width: 900px;
+    
+}
+.header-right>p:nth-child(1) {
+    color: #830e04;
+    font-style: italic;
+    
+}
+.header-right>p:nth-child(3) {
+    font-style: italic;
+}
+
+
+/* =========================== banner ==================================*/
+
+
+
+/* =========================== nav ==================================*/
+nav {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+nav>div {
+    width: 900px;
+    background-color:burlywood;   
+}
+.gnb {
+    font-size: 18px;
+    text-align: center;
+    
+}
+.gnb>li {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+}
+.gnb>li:hover>.lnb {
+    display: block;
+}
+.gnb>li>a {
+    color: white;
+}
+
+.lnb {
+    position: absolute;
+    display: none;
+    background-color: burlywood;
+    
+}
+.lnb>li {
+    width: 120px;
+    height: 30px;
+    line-height: 30px; 
+}
+.lnb>li>a {
+    color: white;
+}
+
+
+/* =========================== main ==================================*/
+#main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* =========================== footer ==================================*/
+/*
+hr {
+    background-color: black;
+    border: 0;
+    height: 1px;
+}   
+*/
+
+
+footer {
+    width: 900px;
+    height: 100px;
+    background-color: lightgrey;
+    font-size: 14px;
+}
+.f-top {
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+.f-bottom {
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+
